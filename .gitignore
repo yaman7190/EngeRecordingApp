@@ -1,0 +1,36 @@
+# --- OS・エディタ関連 ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# プロビジョニングプロファイル（証明書）を除外
+*.mobileprovision
+
+# Create ML のプロジェクトファイルを除外
+*.mlproj
+
+# テストデータと生成データフォルダを除外
+TestData/
+split_audio/
+
+# 特定の拡張子を除外する場合（例：音声や動画、CSV）
+*.wav
+*.mp3
+*.mp4
+*.csv
+*.xlsx
+
+# --- iOS (Swift) 関連 ---
+build/
+DerivedData/
+*.xcuserdata
+*.xcuserstate
+*.xccheckout
+Pods/
+
+# --- Python 関連 ---
+__pycache__/
+*.py[cod]
+.venv/
+.env
